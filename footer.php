@@ -35,9 +35,12 @@
 						<li><a href="#"><img src="images/youtube.png" alt="Youtube"></a></li>
 					</ul>
 				</div>
-				<div class="github"><a href="https://github.com/bagpap15-create/WebCreateStudio">GitHub</a></div>
+			</div>
+			<div class="github"><a href="https://github.com/bagpap15-create/WebCreateStudio">
+				<i class="fa-brands fa-github"></i>GitHub</a>
 			</div>
 			<div class="privacy-policy">
+				<span>Δείτε τον κώδικα του portfolio στο GitHub:</span>
 				<a href="cookie-policy.php">Πολιτική Cookies</a>|<a href="privacy-policy.php">Πολιτική Απορρήτου</a>
 			</div>
 			<div class="copyright">
