@@ -420,7 +420,7 @@ footer .footer-section img {
 	height: 27px;
 }
 
-footer .github {
+footer .github a {
 	text-decoration: none;
 	color: white;
 }
