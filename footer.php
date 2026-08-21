@@ -38,7 +38,7 @@
 			</div>
 			<div class="github"><a href="https://github.com/bagpap15-create/WebCreateStudio">
 				<span>Δείτε τον κώδικα του portfolio στο GitHub:</span>
-				<i class="fa-brands fa-github"></i>GitHub</a>
+				<i class="fa-brands fa-github" style="font-size: 30px; color: #0471E5"></i>GitHub</a>
 			</div>
 			<div class="privacy-policy">
 				<a href="cookie-policy.php">Πολιτική Cookies</a>|<a href="privacy-policy.php">Πολιτική Απορρήτου</a>
