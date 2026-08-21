@@ -369,7 +369,8 @@ footer .footer-section {
 footer .location, 
 footer .phone-number, 
 footer .email, 
-footer .social-media {
+footer .social-media,
+footer .github {
     margin-top: 5px;
 	margin-left: 15px;
     align-items: baseline;
@@ -417,6 +418,11 @@ footer .social-media img:hover {
 footer .footer-section img {
 	width: 27px;
 	height: 27px;
+}
+
+footer .github {
+	text-decoration: none;
+	color: white;
 }
 
 footer .privacy-policy {
