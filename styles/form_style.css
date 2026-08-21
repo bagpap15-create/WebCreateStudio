@@ -1,0 +1,125 @@
+.container main form {
+	margin: auto 15px;
+}
+
+.container main h2, .container main p {
+	margin: 15px;
+}
+
+.container main ul {
+	list-style-type: none;
+}
+
+main h2.header-form {
+	margin: 15px;
+}
+
+.container main .com-align {
+	display: flex;
+	flex-direction: row;
+}
+
+.list-com, 
+.form-container {
+	flex: 1;
+}
+
+.list-com ul li {
+    margin-bottom: 8px;
+}
+
+.list-com ul li i {
+	color: #0471E5;
+    font-size: 25px;
+}
+
+.container main .form-container {
+	margin-right: 18px;
+}
+
+.container .form-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .form-content .input-texts {
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 4px;
+}
+
+.container form input[type="text"], 
+.container form input[type="email"] {
+	width: 200px;
+	height: 30px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+
+.container input.first-name, 
+.container input.last-name {
+	margin-right: 10px;
+}
+
+.container input[type="text"]:focus,
+.container input[type="email"]:focus {
+	background-color: #f1f1f1;
+	border: 2px solid #0471E5;
+}
+
+.container main form .form-content textarea {
+	font-size: 16px;
+	font-family: Arial;
+	resize: none;
+	margin-top: 4px;
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+.container form textarea:focus {
+	background-color: #f1f1f1;
+    border: 2px solid #0471E5;
+}
+
+.container form input[type="submit"] {
+    border: none;
+	border-radius: 5px;
+	background-color: #0471E5;
+	padding: 6px 12px;
+	width: 140px;
+	color: white;
+	margin: 10px 0;
+}
+
+.container form input[type="submit"]:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.container main .com-align {
+	animation: mymove 2s alternate;
+}
+
+@media (max-width: 678px) {
+	.container main .com-align {
+		flex-direction: column;
+	}
+	.container main .com-align .form-container .input-texts {
+		flex-direction: column;
+        margin-bottom: 5px;
+	}
+	
+	.container main input[type="text"] {
+		margin-bottom: 8px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container main input[type="text"]  {
+		flex-direction: column;
+		margin-bottom: 8px;
+		
+}
