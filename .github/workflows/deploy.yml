@@ -20,3 +20,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
         server-dir: /htdocs/ # ή ο φάκελος που βάζεις τα αρχεία στο InfinityFree
+        security: loose
