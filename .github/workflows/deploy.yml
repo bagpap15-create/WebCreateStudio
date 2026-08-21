@@ -2,7 +2,7 @@ name: Deploy to InfinityFree
 on:
   push:
     branches:
-      - main # ή master, ανάλογα πώς λέγεται το branch σου
+      - main
 
 jobs:
   web-deploy:
@@ -19,5 +19,5 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
-        server-dir: /htdocs/ # ή ο φάκελος που βάζεις τα αρχεία στο InfinityFree
+        server-dir: /htdocs/
         security: loose
