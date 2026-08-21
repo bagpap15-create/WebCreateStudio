@@ -428,6 +428,11 @@ footer .github a {
 	margin: 15px;
 }
 
+footer .github span {
+	align-content: end;
+	margin-left: 5px;
+}
+
 footer .github a:hover {
 	color: #ccc;
 }
