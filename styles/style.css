@@ -421,8 +421,15 @@ footer .footer-section img {
 }
 
 footer .github a {
+	display: flex;
+	justify-content: center;
 	text-decoration: none;
 	color: white;
+	margin: 15px;
+}
+
+footer .github a:hover {
+	color: #ccc;
 }
 
 footer .privacy-policy {
