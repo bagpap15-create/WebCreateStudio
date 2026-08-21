@@ -35,6 +35,7 @@
 						<li><a href="#"><img src="images/youtube.png" alt="Youtube"></a></li>
 					</ul>
 				</div>
+				<div class="github"><a href="https://github.com/bagpap15-create/WebCreateStudio">GitHub</a></div>
 			</div>
 			<div class="privacy-policy">
 				<a href="cookie-policy.php">Πολιτική Cookies</a>|<a href="privacy-policy.php">Πολιτική Απορρήτου</a>
