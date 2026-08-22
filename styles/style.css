@@ -502,8 +502,8 @@ footer .copyright p {
 		margin-left: 10px;
 	}
 
-	.articles-without-slide article,
-	.articles-explain-programming-lan article {
+	.articles-without-slide article:nth-child(2n+1),
+	.articles-explain-programming-lan article:nth-child(2n+1) {
 		opacity: 0;
 		transform: translateX(-40px);
 		transition: all 1.5s ease-in;
