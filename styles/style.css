@@ -317,37 +317,27 @@ footer .lists-container {
 	flex-wrap: nowrap;
 	justify-content: center;
 	margin: 20px auto;
-}
-
-footer .list-container {
-	max-width: 300px;
-	margin-right: 50px;
-}
-
-footer .list-container h5 {
-	text-align: center;
-	margin: auto 5px;
-	margin-bottom: 4px;
-}
-
-footer .list-container ul {
-	list-style-type: none;
-	padding-left: 0;
-}
-
-footer .list-container ul li {
-	padding: 2px 0;
-}
-
-footer .list-container ul li a {
-	text-decoration: none;
-	color: white;
-}
-
-footer .lists-container .list-container a {
-	text-decoration: none;
-	color: white;
-	margin: 0 2px;
+	.list-container {
+		max-width: 300px;
+		margin-right: 50px;
+		h5 {
+			text-align: center;
+			margin: auto 5px;
+			margin-bottom: 4px;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 0; 
+			li {
+				padding: 2px 0;
+				a {
+					text-decoration: none;
+					color: white;
+					margin: 0 2px;
+				}
+			}
+		}
+	}
 }
 
 footer .footer-section {
@@ -369,8 +359,28 @@ footer .github {
 }
 
 footer .social-media h4 {
-	text-align: center;
-	margin: 4px;
+	
+}
+
+footer .social-media {
+	h4 {
+		text-align: center;
+		margin: 4px;
+	}
+	ul {
+		display: flex;
+		flex-direction: row;
+		padding-left: 0;
+		list-style-type: none;
+	}
+	img {
+		width: 27px;
+		height: 27px;
+		margin: 0 5px;
+		&:hover {
+			transform: scale(1.5, 1.5);
+		}
+	}
 }
 
 footer .location, 
@@ -387,25 +397,9 @@ footer .my-custom-icons {
 	color: #0471E5;
 }
 
-footer .social-media ul {
-	display: flex;
-	flex-direction: row;
-	padding-left: 0;
-}
+footer .social-media 
 
-footer .social-media ul {
-	list-style-type: none;
-}
-
-footer .social-media img {
-	width: 27px;
-	height: 27px;
-	margin: 0 5px;
-}
-
-footer .social-media img:hover {
-	transform: scale(1.5, 1.5);
-}
+footer .social-media img
 
 footer .footer-section img {
 	width: 27px;
