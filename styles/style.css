@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 body {
@@ -431,6 +432,9 @@ footer .copyright p {
 
 /*Responsive Site*/
 @media screen and (max-width: 678px) {
+	body {
+		
+	}
 	.container {
 		justify-content: center;
 	}
