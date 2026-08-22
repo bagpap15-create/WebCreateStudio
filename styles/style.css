@@ -321,7 +321,7 @@ footer .lists-container {
 
 footer .list-container {
 	max-width: 300px;
-	margin-right: 8px;
+	margin-right: 50px;
 }
 
 footer .list-container h5 {
@@ -534,7 +534,7 @@ footer .copyright p {
 	/*Footer Style*/
 	footer .lists-container {
 		flex-direction: column;
-		margin: 0 35%;
+		margin: 8px 35%;
 	}
 	
 	footer .logo-image img {
