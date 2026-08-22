@@ -47,6 +47,12 @@ body {
 		opacity: 0;
 		transform: translateX(-40px);
 		transition: all 1.5s ease-in;
+	}.
+	articles-without-slide {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.articles-without-slide article:nth-child(n+5),
 	.articles-explain-programming-lan article:nth-child(n+4) {
@@ -58,19 +64,11 @@ body {
 		opacity: 1;
 		transform: translateX(0);
 	}
-}
-
-.articles-without-slide {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.articles-without-slide article:hover,
-.articles-explain-programming-lan article:hover {
-	background-color: rgba(0, 0, 0, 0.15);
-	color: #0471E5;
+	.articles-without-slide article:hover,
+	.articles-explain-programming-lan article:hover {
+		background-color: rgba(0, 0, 0, 0.15);
+		color: #0471E5;
+	}
 }
 
 .articles-without-slide article img {
