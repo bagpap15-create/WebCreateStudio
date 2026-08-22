@@ -47,8 +47,8 @@ body {
 		opacity: 0;
 		transform: translateX(-40px);
 		transition: all 1.5s ease-in;
-	}.
-	articles-without-slide {
+	}
+	.articles-without-slide {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -69,11 +69,11 @@ body {
 		background-color: rgba(0, 0, 0, 0.15);
 		color: #0471E5;
 	}
-}
-
-.articles-without-slide article img {
-	width: 300px;
-	height: 150px;
+	
+	.articles-without-slide article img {
+		width: 300px;
+		height: 150px;
+	}
 }
 
 /*Articles explain programming language*/
