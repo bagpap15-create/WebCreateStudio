@@ -84,8 +84,10 @@ nav .main-menu button {
 		visibility: visible;
 	}
 	nav .main-menu button:hover {
-		color: gray;
 		background-color: rgba(0, 0, 0, 0);
+	}
+	nav .main-menu button i:hover {
+		color: gray;
 	}
 	nav .main-menu button:active {
 		border: #e1e1e1;
