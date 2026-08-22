@@ -10,8 +10,8 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	font-family: Arial;
-    width: 100%;
-    overflow-x: hidden;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 .container {
