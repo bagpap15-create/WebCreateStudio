@@ -403,7 +403,8 @@ footer .github {
 			margin-left: 5px;
 		}
 		.my-custom-github {
-			font-size: 30px; color: #0471E5
+			font-size: 30px; 
+			color: #0471E5;
 		}
 	}
 }
