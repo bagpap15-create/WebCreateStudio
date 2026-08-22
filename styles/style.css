@@ -316,7 +316,7 @@ footer .lists-container {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-	margin-bottom: 5px;
+	margin: 20px auto;
 }
 
 footer .list-container {
@@ -534,8 +534,10 @@ footer .copyright p {
 	/*Footer Style*/
 	footer .lists-container {
 		flex-direction: column;
-		margin: 0 35%;
-		width: 180px;
+		padding: 2px;
+ 		width: 100%;
+		margin: 15px 25%;
+		height: auto;
 		.list-container {
 			margin: 8px 0;
 			h5 {
