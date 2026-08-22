@@ -86,7 +86,11 @@ nav .main-menu button {
 	nav .main-menu button:hover {
 		background-color: rgba(0, 0, 0, 0);
 	}
-	nav .main-menu button i:hover {
+	.my-custom-bars {
+		font-size: 20px;
+		color: white;
+	}
+	.my-custom-bars:hover {
 		color: gray;
 	}
 	nav .main-menu button:active {
