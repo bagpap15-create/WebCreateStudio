@@ -23,9 +23,9 @@
 				</div>
 			</div>
 			<div class="footer-section">
-				<div class="location"><i class="fa-sharp fa-light fa-location-dot my-custom-icons"></i>Λάρισα</div>
-				<div class="phone-number"><i class="fa-light fa-phone my-custom-icons"></i>+306939370369</div>
-				<div class="email"><i class="fa-light fa-envelope my-custom-icons"></i>bagpap15@gmail.com</div>
+				<div class="location"><i class="fa-solid fa-location-dot my-custom-icons"></i>Λάρισα</div>
+				<div class="phone-number"><i class="fa-solid fa-phone my-custom-icons"></i>+306939370369</div>
+				<div class="email"><i class="fa-solid fa-envelope my-custom-icons"></i>bagpap15@gmail.com</div>
 				<div class="social-media">
 					<h4>Social media</h4>
 					<ul>
