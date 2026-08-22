@@ -510,6 +510,12 @@ footer .copyright p {
 	.articles-without-slide article .btn {
 		margin-left: 10px;
 	}
+
+	.articles-without-slide article:nth-child(0),
+	.articles-explain-programming-lan article:nth-child(1) {
+		transform: translateX(40px);
+		transition: all 1.5s ease-in;
+	}
 	
 	/*Article Site*/
 	main img.article-thumb {
