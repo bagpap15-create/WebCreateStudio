@@ -341,16 +341,23 @@ footer .footer-section {
 	justify-content: center;
     flex-wrap: wrap;
 	border-top: 1px solid gray;
-}
-
-footer .location, 
-footer .phone-number, 
-footer .email, 
-footer .social-media,
-footer .github {
-    margin-top: 5px;
-	margin-left: 15px;
-    align-items: baseline;
+	
+	.location, 
+	.phone-number, 
+	.email, 
+	.social-media,
+	.github {
+	    margin-top: 5px;
+		margin-left: 15px;
+	    align-items: baseline;
+	}
+	.location, 
+	.phone-number, 
+	.email {
+		display: flex; 
+		flex-direction: row;
+		padding: 10px 25px;
+	}
 }
 
 footer .social-media {
@@ -374,23 +381,10 @@ footer .social-media {
 	}
 }
 
-footer .location, 
-footer .phone-number, 
-footer .email {
-	display: flex; 
-	flex-direction: row;
-	padding: 10px 25px;
-}
-
 footer .my-custom-icons {
 	font-size: 28px;
 	margin-right: 10px;
 	color: #0471E5;
-}
-
-footer .footer-section img {
-	width: 27px;
-	height: 27px;
 }
 
 footer .github {
@@ -407,6 +401,9 @@ footer .github {
 		span {
 			align-content: end;
 			margin-left: 5px;
+		}
+		.my-custom-github {
+			font-size: 30px; color: #0471E5
 		}
 	}
 }
