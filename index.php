@@ -3,7 +3,9 @@
 	include "all_articles.php"; 
 	include "article_excerpt.php";
 ?>
-
+<script>
+	alert("Καλως ορίσατε");
+</script>
 <?php include "header.php" ?>
 	<main>
 		<div class="articles">
