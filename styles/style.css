@@ -63,8 +63,6 @@ body {
 	transform: translateX(0);
 }
 
-
-
 .articles-without-slide {
 	display: flex;
 	flex-direction: row;
@@ -193,16 +191,9 @@ a.btn-style:hover {
 	100% {opacity: 1;}
 }
 
-.container main h3.header-site {
-
-}
-
 .container main img.img-site {
 	width: 100%;
 	height: 300px;
-}
-
-.container main div.content-site {
 }
 
 .container ul.list-style {
@@ -515,6 +506,12 @@ footer .copyright p {
 	.articles-explain-programming-lan article:nth-child(n+1) {
 		transform: translateX(40px);
 		transition: all 1.5s ease-in;
+	}
+
+	.articles-without-slide article.animate,
+	.articles-explain-programming-lan article.animate {
+		opacity: 1;
+		transform: translateX(0);
 	}
 	
 	/*Article Site*/
