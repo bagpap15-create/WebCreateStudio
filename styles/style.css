@@ -10,7 +10,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	font-family: Arial;
-    width:100%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -398,31 +398,30 @@ footer .footer-section img {
 	height: 27px;
 }
 
-footer .github a {
-	display: flex;
-	justify-content: center;
-	text-decoration: none;
-	color: white;
-	margin-bottom: 30px;
-}
-
-footer .github span {
-	align-content: end;
-	margin-left: 5px;
-}
-
-footer .github a:hover {
-	color: #ccc;
+footer .github {
+	a {
+		display: flex;
+		justify-content: center;
+		text-decoration: none;
+		color: white;
+		margin-bottom: 30px;
+		&:hover {
+			color: #ccc;
+		}
+		span {
+			align-content: end;
+			margin-left: 5px;
+		}
+	}
 }
 
 footer .privacy-policy {
 	text-align: center;
-}
-
-footer .privacy-policy a {
-	text-decoration: none;
-	color: white;
-	margin: 0 5px;
+		a {
+		text-decoration: none;
+		color: white;
+		margin: 0 5px;
+	}
 }
 
 footer .list-container ul li a:hover, 
