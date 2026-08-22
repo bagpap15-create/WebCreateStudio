@@ -19,7 +19,7 @@
 		<nav>
 			<a href="index.php"><img src="images/logo.png" width="100" height="54"></a>
 			<div class="main-menu">
-				<button onclick="menuVis()"><i class="fa-solid fa-bars"></i></button>
+				<button onclick="menuVis()"><i class="fa-solid fa-bars my-custom-bars"></i></button>
 				<script src="scripts/menu-visibility.js" type="text/javascript"></script>
 				<?php include "menu.php"; ?>
 			</div>
