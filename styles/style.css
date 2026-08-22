@@ -442,69 +442,71 @@ footer .copyright p {
 	.articles {
 		margin: 0;
 		padding: 0 0 2px;
+		/*Articles without slides, Articles explain programming language*/
+		.articles-explain-programming-lan .articles-row {
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		.articles-without-slide article, 
+		.articles-explain-programming-lan .articles-row article {
+			box-shadow: none;
+			width: 100%;
+			margin: 0;
+			padding: 0 0 17px;
+			border-top: 1px solid #aaa;
+		}
+		.articles-without-slide article img,
+		.articles-explain-programming-lan article img {
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		.articles-without-slide article .article-content, 
+		.articles-explain-programming-lan .article-content {
+			margin: 0 5px;
+			overflow: hidden;
+		}
+		
+		.articles-without-slide article h3,
+		.articles-explain-programming-lan article h3
+		{
+			margin: 5px;
+		}
+		
+		.articles-without-slide article .btn {
+			margin-left: 10px;
+		}
+	
+		.articles-without-slide article:nth-child(2n+1),
+		.articles-explain-programming-lan article:nth-child(2n+1) {
+			opacity: 0;
+			transform: translateX(-40px);
+			transition: all 1.5s ease-in;
+		}
+		
+		.articles-without-slide article:nth-child(2n+2),
+		.articles-explain-programming-lan article:nth-child(2n+2) {
+			transform: translateX(40px);
+			transition: all 1.5s ease-in;
+		}
+	
+		.articles-without-slide article.animate,
+		.articles-explain-programming-lan article.animate {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 	
-	/*Articles without slides, Articles explain programming language*/
-	.articles-explain-programming-lan .articles-row {
-		display: flex;
-		flex-direction: column;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
 	
-	.articles-without-slide article, 
-	.articles-explain-programming-lan .articles-row article {
-		box-shadow: none;
-		width: 100%;
-		margin: 0;
-		padding: 0 0 17px;
-		border-top: 1px solid #aaa;
-	}
 	
-	.articles-without-slide article img,
-	.articles-explain-programming-lan article img
-	{
-		width: 100%;
-		object-fit: cover;
-		object-position: center;
-
-	}
 	
-	.articles-without-slide article .article-content, 
-	.articles-explain-programming-lan .article-content {
-		margin: 0 5px;
-		overflow: hidden;
-	}
 	
-	.articles-without-slide article h3,
-	.articles-explain-programming-lan article h3
-	{
-		margin: 5px;
-	}
 	
-	.articles-without-slide article .btn {
-		margin-left: 10px;
-	}
-
-	.articles-without-slide article:nth-child(2n+1),
-	.articles-explain-programming-lan article:nth-child(2n+1) {
-		opacity: 0;
-		transform: translateX(-40px);
-		transition: all 1.5s ease-in;
-	}
 	
-	.articles-without-slide article:nth-child(2n+2),
-	.articles-explain-programming-lan article:nth-child(2n+2) {
-		transform: translateX(40px);
-		transition: all 1.5s ease-in;
-	}
-
-	.articles-without-slide article.animate,
-	.articles-explain-programming-lan article.animate {
-		opacity: 1;
-		transform: translateX(0);
-	}
+	
 	
 	/*Article Site*/
 	main img.article-thumb {
