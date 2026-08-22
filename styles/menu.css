@@ -14,12 +14,6 @@ nav a {
 	text-decoration: none;
 }
 
-nav a img {
-}
-
-nav .main-menu {
-}
-
 nav .main-menu ul {
 	display: flex;
 	flex-direction: row;
@@ -90,8 +84,8 @@ nav .main-menu button {
 		visibility: visible;
 	}
 	nav .main-menu button:hover {
-		border: #e1e1e1;
-		background-color: #777;
+		color: gray;
+		background-color: rgba(0, 0, 0, 0);
 	}
 	nav .main-menu button:active {
 		border: #e1e1e1;
