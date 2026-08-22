@@ -321,6 +321,7 @@ footer .lists-container {
 
 footer .list-container {
 	max-width: 300px;
+	margin-right: 8px;
 }
 
 footer .list-container h5 {
