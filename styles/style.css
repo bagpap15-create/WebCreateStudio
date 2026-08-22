@@ -381,10 +381,10 @@ footer .email {
 	padding: 10px 25px;
 }
 
-footer .location img,
-footer .phone-number img,
-footer .email img {
+footer .location my-custom-icons {
+	font-size: 30px;
 	margin-right: 10px;
+	color: #0471E5;
 }
 
 footer .social-media ul {
