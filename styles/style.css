@@ -396,7 +396,9 @@ footer .github {
 		margin-bottom: 30px;
 		&:hover {
 			color: #ccc;
-			transform: scale(1.2);
+			.my-custom-github {
+				transform: scale(1.4);
+			}
 		}
 		span {
 			align-content: end;
