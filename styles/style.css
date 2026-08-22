@@ -534,7 +534,10 @@ footer .copyright p {
 	/*Footer Style*/
 	footer .lists-container {
 		flex-direction: column;
-		margin: 8px 35%;
+		margin: 0 35%;
+		.list-contaneiner {
+			margin: 8px 0;
+		}
 	}
 	
 	footer .logo-image img {
@@ -544,18 +547,16 @@ footer .copyright p {
 	footer .footer-section {
 		flex-direction: column;
 		align-items: center;
+		ul {
+			justify-content: center;
+		}
 	}
 	
-	footer .footer-section ul {
-		justify-content: center;
-	}
-    
     footer .social-media {
 		margin-top: 30px;
-	}
-    
-	.social-media a {
-		display: flex;
-		flex-direction: column;
+		a {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 }
