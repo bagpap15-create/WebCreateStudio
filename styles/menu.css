@@ -93,6 +93,9 @@ nav .main-menu button {
 	.my-custom-bars:hover {
 		color: gray;
 	}
+	.my-custom-bars:active {
+		color: lightgray;
+	}
 	nav .main-menu button:active {
 		border: #e1e1e1;
 		background-color: #999;
