@@ -57,7 +57,7 @@ body {
 	.articles-without-slide article:nth-child(n+5),
 	.articles-explain-programming-lan article:nth-child(n+4) {
 		transform: translateX(40px);
-		transition: all 1.5s ease-in;
+		transition: all 0.5s ease-in;
 	}
 	.articles-without-slide article.animate,
 	.articles-explain-programming-lan article.animate {
@@ -486,7 +486,7 @@ footer .copyright p {
 		.articles-without-slide article:nth-child(2n+2),
 		.articles-explain-programming-lan article:nth-child(2n+2) {
 			transform: translateX(40px);
-			transition: all 1.5s ease-in;
+			transition: all 0.5s ease-in;
 		}
 	
 		.articles-without-slide article.animate,
