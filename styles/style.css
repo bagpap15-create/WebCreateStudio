@@ -47,6 +47,21 @@ body {
 		opacity: 0;
 		transform: translateX(-40px);
 		transition: all 0.5s ease-in;
+		a.btn-style {
+			width: 150px;
+			padding: 8px 15px;
+			text-decoration: none;
+			border-radius: 5px;
+			background-color: #0471E5;
+			color: white;
+		    margin-top: 8px;
+		    margin-left: 15px;
+			margin-bottom: 25px;
+			font-size: 13px;
+		}
+		a.btn-style:hover {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
 	}
 	.articles-without-slide {
 		display: flex;
@@ -74,70 +89,54 @@ body {
 		width: 300px;
 		height: 150px;
 	}
-}
-
-/*Articles explain programming language*/
-.articles-explain-programming-lan {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #8EC3E6;
-	width: 100%;
-}
-
-.articles-explain-programming-lan h2 {
-	text-align: center;
-}
-
-.articles-explain-programming-lan .articles-row {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.articles-explain-programming-lan .articles-row article {
-	margin: 3px 5px;
-	width: 350px;
-	padding: 9px;
-	margin: 15px;
-	box-shadow: 0 0 8px gray;
-	background-color: white;
+	/*Articles explain programming language*/
+	.articles-explain-programming-lan {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #8EC3E6;
+		width: 100%;
+	}
 	
-	display: flex;
-	flex-direction: column;
+	.articles-explain-programming-lan h2 {
+		text-align: center;
+	}
+	
+	.articles-explain-programming-lan .articles-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.articles-explain-programming-lan .articles-row article {
+		margin: 3px 5px;
+		width: 350px;
+		padding: 9px;
+		margin: 15px;
+		box-shadow: 0 0 8px gray;
+		background-color: white;
+		
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.articles-without-slide article div.article-content,
+	.articles-explain-programming-lan article div.article-content {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+		flex-grow: 1;
+	}
+	
+	.articles-explain-programming-lan article img {
+		width: 350px;
+		height: 150px;
+	}
 }
 
-.articles-without-slide article div.article-content,
-.articles-explain-programming-lan article div.article-content {
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 2;
-	overflow: hidden;
-	flex-grow: 1;
-}
 
-.articles-explain-programming-lan article img {
-	width: 350px;
-	height: 150px;
-}
-
-a.btn-style {
-	width: 150px;
-	padding: 8px 15px;
-	text-decoration: none;
-	border-radius: 5px;
-	background-color: #0471E5;
-	color: white;
-    margin-top: 8px;
-    margin-left: 15px;
-	margin-bottom: 25px;
-	font-size: 13px;
-}
-
-a.btn-style:hover {
-	background-color: rgba(0, 0, 0, 0.15);
-}
 
 /*Article site*/
 .container main .img-article-content {
