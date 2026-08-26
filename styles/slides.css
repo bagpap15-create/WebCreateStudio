@@ -191,7 +191,7 @@ button.btn-next {
 	}
 
 	.articles-slide-phone article h2 {
-		
+		margin: 5px;
 	}
 
 	.articles-slide-phone article img {
@@ -200,7 +200,14 @@ button.btn-next {
 		object-position: center;
 	}
 
-	.articles-slide-phone article p
+	.articles-slide-phone article .article-content {
+		margin: 0 5px;
+		overflow: hidden;
+	}
+
+	.articles-slide-phone article .btn {
+		margin-left: 10px;
+	}
 	
 	.menu-slides {
 		display: none;
