@@ -128,7 +128,6 @@ body {
 		-webkit-box-orient: vertical;
 		-webkit-line-clamp: 2;
 		overflow: hidden;
-		flex-grow: 1;
 	}
 	
 	.articles-explain-programming-lan article img {
