@@ -204,7 +204,7 @@ button.btn-next {
 		padding: 0 0 17px;
 		width: 100%;
 		height: auto;
-		border-bottom: 1px solid gray;
+		border-bottom: 1px solid #aaa;
 	}
 
 	.articles-slide-phone article h3 {
