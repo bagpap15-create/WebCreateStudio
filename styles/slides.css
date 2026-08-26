@@ -170,6 +170,10 @@ button.btn-next {
 }
 
 @media screen and (max-width: 678px) {
+	.slide .slide-info h2,
+	.slide .slide-info p {
+		width: 75%;
+	}
 	.menu-slides {
 		display: none;
 	}
