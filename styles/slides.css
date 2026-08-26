@@ -217,11 +217,24 @@ button.btn-next {
 		object-position: center;
 	}
 
-	.articles-slide-phone article .article-content {
+	.articles-slide-phone article .article-content:nth-child(2n+1) {
 		margin: 0 5px;
 		overflow: hidden;
+		opacity: 0;
+		transform: translateX(40px);
+		transition: all 0.5s ease-in;
 	}
 
+	.articles-slide-phone article .article-content:nth-child(2n+2) {
+		transform: translateX(-40px);
+		transition: all 0.5s ease-in;
+	}
+
+	.articles-slide-phone article .article-content.animate {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	
 	.articles-slide-phone article .btn {
 		margin-left: 10px;
 	}
