@@ -441,6 +441,9 @@ footer .copyright p {
 		margin: 0;
 		padding: 0 0 2px;
 		/*Articles without slides, Articles explain programming language*/
+		.articles-explain-programming-lan {
+			background-color: white;
+		}
 		.articles-explain-programming-lan .articles-row {
 			display: flex;
 			flex-direction: column;
