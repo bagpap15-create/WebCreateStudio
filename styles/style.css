@@ -34,7 +34,8 @@ body {
 	gap: 5px;
 	/*Article without slide*/
 	.articles-without-slide article,
-	.articles-explain-programming-lan article {
+	.articles-explain-programming-lan article,
+	.articles-slide-phone article {
 		width: 300px;
 		padding: 9px;
 		box-shadow: 0 0 8px gray;
