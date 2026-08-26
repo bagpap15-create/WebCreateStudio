@@ -218,7 +218,7 @@ button.btn-next {
 	}
 
 	.articles-slide-phone article:nth-child(2n+1) {
-		margin: 0 5px;
+		margin: 0;
 		overflow: hidden;
 		opacity: 0;
 		transform: translateX(40px);
