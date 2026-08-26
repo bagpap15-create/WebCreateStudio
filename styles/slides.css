@@ -201,7 +201,7 @@ button.btn-next {
 
 	.articles-slide-phone article {
 		margin: 0;
-		padding: 0;
+		padding: 0 0 17px;
 		width: 100%;
 		height: auto;
 		border-bottom: 1px solid gray;
