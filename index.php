@@ -39,6 +39,20 @@
 				</div>
 			</div>
 			<script src="scripts/slides.js"></script>
+
+			<div class="articles-slide-phone">
+				<?php foreach ($slidesArticles as $i => $article): ?>
+					<article>
+						<h3><?php echo $article['title']; ?></h3>
+						<img src="images/<?php echo $article['image']; ?>" alt="<?php echo $article['alt']; ?>">
+						<div class="article-content">
+							<?php $excerpt = article_excerpt($article['content']); ?>
+							<p><?php echo $excerpt; ?></p>
+						</div>
+						<a href="<?php echo "article_slide.php?id=".$article['id-article']; ?>" class="btn-style">Διαβάστε περισσότερο</a>
+					</article>
+				<?php endforeach; ?>
+			</div>
 			<div class="articles-without-slide">
 				<?php foreach ($osArticles as $i => $article): ?>
 					<article>
