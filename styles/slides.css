@@ -217,7 +217,7 @@ button.btn-next {
 		object-position: center;
 	}
 
-	.articles-slide-phone article .article-content:nth-child(2n+1) {
+	.articles-slide-phone article:nth-child(2n+1) {
 		margin: 0 5px;
 		overflow: hidden;
 		opacity: 0;
@@ -225,12 +225,12 @@ button.btn-next {
 		transition: all 0.5s ease-in;
 	}
 
-	.articles-slide-phone article .article-content:nth-child(2n+2) {
+	.articles-slide-phone article:nth-child(2n+2) {
 		transform: translateX(-40px);
 		transition: all 0.5s ease-in;
 	}
 
-	.articles-slide-phone article .article-content.animate {
+	.articles-slide-phone article.animate {
 		opacity: 1;
 		transform: translateX(0);
 	}
