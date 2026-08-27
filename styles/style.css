@@ -182,17 +182,15 @@ body {
 	transition: opacity 0.7s ease-in;
 }
 
-.container main .header-site, 
-.container main div.content-site, 
-.container main h3.header-list,
-.container main img.img-site,
-.container main ul.list-style,
-.container main ol.list-style,
+.container main .header-site.animate, 
+.container main div.content-site.animate, 
+.container main h3.header-list.animate,
+.container main img.img-site.animate,
+.container main ul.list-style.animate,
+.container main ol.list-style.animate,
 .container main p,
 .photo-container {
-	.animate {
-		opacity: 1;
-	}
+	opacity: 1;
 }
 
 @keyframes mymove {
