@@ -271,9 +271,9 @@
 			</ul>
 			<h3 class='header-site'>Τα 3 Δημοφιλέστερα CMS της Αγοράς</h3>
 			<ul class='list-style'>
-				<li>WordPress: Το πιο δημοφιλές παγκοσμίως. Ιδανικό για blogs, εταιρικά sites και eshops.</li>
-				<li>Shopify: Η κορυφαία πλατφόρμα αποκλειστικά για ηλεκτρονικό εμπόριο.</li>
-				<li>Joomla / Drupal: Πιο σύνθετα συστήματα για μεγάλους οργανισμούς με απαιτήσεις ασφαλείας.</li>
+				<li><strong>WordPress:</strong> Το πιο δημοφιλές παγκοσμίως. Ιδανικό για blogs, εταιρικά sites και eshops.</li>
+				<li><strong>Shopify:</strong> Η κορυφαία πλατφόρμα αποκλειστικά για ηλεκτρονικό εμπόριο.</li>
+				<li><strong>Joomla / Drupal:</strong> Πιο σύνθετα συστήματα για μεγάλους οργανισμούς με απαιτήσεις ασφαλείας.</li>
 			</ul>
 			<h3 class='header-site'>Γιατί επιλέγουμε WordPress;</h3>
 			<p>Το WordPress αποτελεί την κορυφαία επιλογή για τη <strong>WebCreate Studio</strong>, καθώς προσφέρει απεριόριστη ευελιξία, φιλικότητα προς το SEO και 
