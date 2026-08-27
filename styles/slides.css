@@ -112,7 +112,7 @@ button.btn-next {
 .slide-info p {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 1;
+	-webkit-line-clamp: 2;
 	overflow: hidden;
 	width: 50%;
 	height: auto;
