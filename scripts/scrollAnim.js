@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 	const article = document.querySelectorAll("article");
 	article.forEach(a => observer.observe(a));
-	const header2 = document.querySelector(".container main .header-site");
+	const header2 = document.querySelectorAll(".container main .header-site");
 	header2.forEach(h2=>observer.observe(h2));
-	const paragraphs = document.querySelector(".container main p");
+	const paragraphs = document.querySelectorAll(".container main p");
 	paragraphs.forEach(p => observer.observe(p));
-	const lists = document.querySelector(".container main .list-style");
+	const lists = document.querySelectorAll(".container main .list-style");
 	lists.forEach(l => observer.observe(l));
 });
