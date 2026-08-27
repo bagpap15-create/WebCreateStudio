@@ -498,7 +498,7 @@ footer .copyright p {
 	}
 	
 	/*Article Site*/
-	main img.article-thumb {
+	.container main img.article-thumb {
 		width: 100%;
         height: 40vh;
 		border-radius: 0;
