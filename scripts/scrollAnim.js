@@ -19,4 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	lists.forEach(l => observer.observe(l));
 	const imgThumbs = document.querySelectorAll(".container main img.article-thumb");
 	imgThumbs.forEach(imgThumb => observer.observe(imgThumb));
+	const imgSites = document.querySelectorAll(".container main img.img-site");
+	imgSites.forEach(imgSite => observer.observe(imgSite));
 });
