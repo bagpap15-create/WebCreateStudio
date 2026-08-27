@@ -1,7 +1,7 @@
 <?php
 	$article = "";
 	function article_excerpt($article) {
-        $tags = array("</h3>", "</p>", "</strong>", "</ul>", "</li>");
+        $tags = array("</h3>", "</p>", "</strong>", "</ol>", "</ul>", "</li>");
         
         $text = str_replace($tags, " ", $article);
         $clean_text = strip_tags($text);
