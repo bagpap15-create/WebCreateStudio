@@ -188,8 +188,8 @@ body {
 .container main img.img-site.animate,
 .container main ul.list-style.animate,
 .container main ol.list-style.animate,
-.container main p,
-.photo-container {
+.container main p.animate,
+.photo-container.animate {
 	opacity: 1;
 }
 
