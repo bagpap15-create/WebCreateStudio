@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 	const article = document.querySelectorAll("article");
 	article.forEach(a => observer.observe(a));
-	const h2 = document.querySelector(".container main .header-site");
-	h2.forEach(h=>observer.observe(h));
+	const header2 = document.querySelector(".container main .header-site");
+	header2.forEach(h2=>observer.observe(h2));
+	const paragraphs = document.querySelector(".container main p");
+	paragraphs.forEach(p => observer.observe(p));
 });
