@@ -175,6 +175,7 @@ body {
 .container main h3.header-list,
 .container main img.img-site,
 .container main ul.list-style,
+.container main p,
 .photo-container {
 	animation: mymove 1.5s alternate;
 }
