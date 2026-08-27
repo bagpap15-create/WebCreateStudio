@@ -163,7 +163,8 @@ body {
 /*Site style*/
 .container main .header-site, 
 .container main div.content-site, 
-.container main h3.header-list {
+.container main h3.header-list,
+.container main p {
 	opacity: 1;
 	margin: 15px;
 	transition: opacity 3s ease;
