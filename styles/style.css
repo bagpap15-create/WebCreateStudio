@@ -165,7 +165,7 @@ body {
 .container main div.content-site, 
 .container main h3.header-list,
 .container main p {
-	opacity: 1;
+	opacity: 0;
 	margin: 15px;
 	transition: opacity 3s ease;
 }
@@ -178,7 +178,9 @@ body {
 .container main ol.list-style,
 .container main p,
 .photo-container {
-	animation: mymove 1.5s alternate;
+	.animate {
+		opacity: 1;
+	}
 }
 
 @keyframes mymove {
