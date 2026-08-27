@@ -5,7 +5,7 @@
 }
 .slide-content {
 	width: 100%;
-	height: 350px;
+	height: 60vh;
 	position: relative;
 	display: flex;
 	flex-direction: row;	
@@ -115,7 +115,7 @@ button.btn-next {
 	-webkit-line-clamp: 2;
 	overflow: hidden;
 	width: 50%;
-	height: auto;
+	height: 30px;
 	align-self: center;
 
 
