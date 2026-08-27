@@ -15,4 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	header2.forEach(h2=>observer.observe(h2));
 	const paragraphs = document.querySelector(".container main p");
 	paragraphs.forEach(p => observer.observe(p));
+	const lists = document.querySelector(".container main .list-style");
+	lists.forEach(l => observer.observe(l));
 });
