@@ -178,6 +178,18 @@ body {
 .container main ol.list-style,
 .container main p,
 .photo-container {
+	opacity: 1;
+	transition: opacity 0.7s ease-in;
+}
+
+.container main .header-site, 
+.container main div.content-site, 
+.container main h3.header-list,
+.container main img.img-site,
+.container main ul.list-style,
+.container main ol.list-style,
+.container main p,
+.photo-container {
 	.animate {
 		opacity: 1;
 	}
