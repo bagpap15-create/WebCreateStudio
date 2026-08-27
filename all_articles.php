@@ -268,7 +268,14 @@
 				<li><strong>Έτοιμα πρότυπα (Themes):</strong> Αλλάζετε την εμφάνιση με ένα κλικ.</li>
 				<li><strong>Πρόσθετα (Plugins):</strong> Προσθέτετε λειτουργίες (π.χ. eshop, φόρμες) πανεύκολα.</li>
 				<li><strong>Χαμηλό κόστος:</strong> Πολλά CMS είναι εντελώς δωρεάν (Open Source).</li>
-			</ul>",
+			</ul>
+			<h3 class='header-site'>Τα 3 Δημοφιλέστερα CMS της Αγοράς</h3>
+			<ul class='list-style'>
+				<li>WordPress: Το πιο δημοφιλές παγκοσμίως. Ιδανικό για blogs, εταιρικά sites και eshops.</li>
+				<li>Shopify: Η κορυφαία πλατφόρμα αποκλειστικά για ηλεκτρονικό εμπόριο.</li>
+				<li>Joomla / Drupal: Πιο σύνθετα συστήματα για μεγάλους οργανισμούς με απαιτήσεις ασφαλείας.</li>
+			</ul>
+			<p>Στην <strong>WebCreate Studio</strong> επιλέγουμε το WordPress γιατί είναι το πιο δημοφιλές παγκοσμίως",
 			"image" => "wordpress.jpg",
 			"alt" => "wordpress",
 			"href" => "whats-wordpress.php",
