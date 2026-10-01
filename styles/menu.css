@@ -46,6 +46,7 @@ nav .main-menu button {
 }
 
 .main-menu-phone ul {
+	position: fixed;
 	display: none;
 	list-style-type: none;
 	background-color: #aaa;
